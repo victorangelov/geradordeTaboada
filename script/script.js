@@ -4,6 +4,7 @@ function gerar(){
 
     if(num.value.length == 0){
        window.alert(`Por favor digite um número`)
+       res.innerHTML = ``
     }else{
         res.innerHTML = `` 
         for(var i = 1; i < 11; i++){
